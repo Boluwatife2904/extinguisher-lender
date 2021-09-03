@@ -1,4 +1,5 @@
 export default {
+  ssr: false,
   target: "static",
   generate: {
     dir : "dist"
