@@ -32,7 +32,6 @@ export default {};
 
 <style scoped>
 .hero {
-  /* height: 50vh; */
   padding: 5rem 1rem;
 }
 
@@ -42,7 +41,6 @@ export default {};
 }
 
 .text-container {
-  /* width: 50%; */
   margin-top: 4rem;
 }
 
@@ -57,7 +55,6 @@ export default {};
 }
 
 .image {
-  /* height: 300px; */
   margin-top: 2rem;
   display: block;
   margin: 0 auto;
@@ -112,10 +109,6 @@ export default {};
 }
 
 @media (max-width: 576px) {
-  .hero {
-    /* height: 40vh; */
-  }
-
   .header {
     font-size: 1.5rem;
     text-align: center;
