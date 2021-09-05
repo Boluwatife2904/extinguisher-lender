@@ -1,6 +1,6 @@
 <template>
   <div class="container no-nav">
-    <nuxt-link to="/" class="previous">Go back</nuxt-link>
+    <button @click="$router.go(-1)" class="previous">Go back</button>
     <Nuxt />
   </div>
 </template>
@@ -27,8 +27,11 @@ body {
 }
 
 .previous {
-  color: teal !important;
-  text-decoration: none !important;
+  border: none;
+  outline: none;
+  background: none;
+  color: teal;
+  text-decoration: none;
 }
 
 </style>
