@@ -6,15 +6,15 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'fire-app',
+    title: 'FireExt',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'theme-color', content: '#e7512b'},
+      { hid: 'description', name: 'description', content: 'Your Go To Marketplace for fire extinguishers whenver you have a fire outbreak.' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

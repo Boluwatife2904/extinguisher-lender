@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding">
-    <h3 class="text-white">Firengii</h3>
+    <h3 class="text-white">FireExt</h3>
     <button
       class="navbar-toggler"
       type="button"
