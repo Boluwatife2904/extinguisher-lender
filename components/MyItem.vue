@@ -17,18 +17,42 @@ export default {
 <style scoped>
 .item-container {
   display: flex;
-  margin: 3rem 0;
+  margin: 1rem 0;
+  gap: 20px;
 }
-.text-container {
-  padding: 0 1rem;
-}
+
 img {
   width: 17.5rem;
   border-radius: 0.5rem;
   height: 11rem;
 }
+
 p {
   font-size: 0.8rem;
   color: grey;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  p {
+    -webkit-line-clamp: 7;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .item-container {
+    flex-direction: column;
+  }
+
+  img {
+    height: 14rem;
+    width: 100%;
+  }
+
+  p {
+    -webkit-line-clamp: 3;
+  }
 }
 </style>

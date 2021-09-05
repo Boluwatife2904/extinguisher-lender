@@ -21,7 +21,6 @@ export default {
 <style scoped>
 .card {
   width: 31.5%;
-  height: 25rem;
   border: none;
   overflow: hidden;
   padding: 0;
@@ -31,7 +30,7 @@ export default {
 }
 
 .image {
-  height: 65%;
+  height: 16rem;
   border-radius: 0.5rem;
 }
 

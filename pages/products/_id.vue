@@ -144,4 +144,20 @@ button {
 .padding {
   padding: 10rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .image,
+  .info-box {
+    width: 100%;
+  }
+
+  .image {
+    height: 20rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+}
 </style>

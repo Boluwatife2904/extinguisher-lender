@@ -1,6 +1,6 @@
 <template>
   <div class="container no-nav">
-    <nuxt-link to="/">Go back</nuxt-link>
+    <nuxt-link to="/" class="previous">Go back</nuxt-link>
     <Nuxt />
   </div>
 </template>
@@ -23,7 +23,12 @@ body {
 }
 
 .no-nav {
-  padding: 5rem 0;
+  padding: 5rem 1rem;
+}
+
+.previous {
+  color: teal !important;
+  text-decoration: none !important;
 }
 
 </style>
