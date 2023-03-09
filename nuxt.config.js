@@ -39,4 +39,19 @@ export default {
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {},
+
+	pwa: {
+		meta: {
+			name: "Extinguisher App",
+			author: "Bolwuatife2904",
+			description: "A web app for lending fire extinguishers",
+			theme_color: "#e7512b",
+		},
+		manifest: {
+			name: "Extinguisher Lender",
+			short_name: "Extinguisher Lender",
+			lang: "en",
+			description: "A web app for lending fire extinguishers",
+		},
+	},
 };
