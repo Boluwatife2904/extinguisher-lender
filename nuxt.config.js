@@ -51,7 +51,8 @@ export default {
 			name: "Extinguisher Lender",
 			short_name: "Extinguisher Lender",
 			lang: "en",
-			description: "A web app for lending fire extinguishers",
+			description: "A web app for lending fire extinguishers", 
+			start_url: "/standalone=true",
 			
 		},
 	},
